@@ -5,16 +5,12 @@ public class Proprietario {
     private int cpf;
     private int rg;
     private int dataNascimento;
-    private String rua;
-    private String bairro;
-    private String cidade;
-    private String estado;
-    private int cep;
-    private String complemento;
+    private Endereco endereco;
 
-    public Proprietario(String nome, int cpf, int rg){
+    public Proprietario(String nome, int cpf, int rg, Endereco endereco){
         this.nome = nome;
         this.cpf = cpf;
         this.rg = rg;
+        this.endereco = endereco;
     }
 }
