@@ -57,7 +57,3 @@ Complemento
 17 - Implemente um método que calcule a autonomia de viagem do veículo com base no consumo médio passado como parâmetro.
 
 18 - Implemente um método para exibir o volume de combustível.
-
-19 - Transforme o atributo Marca de um carro em uma classe Marca com nome, nrDeModelos, ano de lançamento e código identificador.
-
-20 - Instancie um objeto da classe Carro, Pessoa, Endereço, Marca e relacione os objetos utilizando os métodos ou construtores quando necessário.
