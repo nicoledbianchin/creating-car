@@ -14,4 +14,20 @@ public class Carro {
     private int numeroMarchas;
     private boolean cambioAutomatico;
     private double volumeCombustivel;
+
+    public void acelera(){
+        velocidadeAtual++;
+    }
+
+    public void freia(){
+        velocidadeAtual = 0;
+    }
+
+    public void trocaMarca(int novaMarcha){
+        numeroMarchas = novaMarcha;
+    }
+
+    public void reduzMarcha(){
+        numeroMarchas--;
+    }
 }
