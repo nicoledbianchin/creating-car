@@ -1,6 +1,6 @@
 package domain;
 
-public class Owner {
+public class Proprietario {
     private String nome;
     private int cpf;
     private int rg;
@@ -12,7 +12,7 @@ public class Owner {
     private int cep;
     private String complemento;
 
-    public Owner(String nome, int cpf, int rg){
+    public Proprietario(String nome, int cpf, int rg){
         this.nome = nome;
         this.cpf = cpf;
         this.rg = rg;
