@@ -15,6 +15,10 @@ public class Carro {
     private boolean cambioAutomatico;
     private double volumeCombustivel;
 
+    public Carro(Proprietario proprietario) {
+        this.proprietario = proprietario;
+    }
+
     public void acelera(){
         velocidadeAtual++;
     }
@@ -29,5 +33,13 @@ public class Carro {
 
     public void reduzMarcha(){
         numeroMarchas--;
+    }
+
+    public double calcularAutonomia(double consumoMedio){
+        return volumeCombustivel / consumoMedio;
+    }
+
+    public double exibirVolume(){
+        return volumeCombustivel;
     }
 }
